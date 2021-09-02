@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
  module.exports = {
    entry: {
       //這個webpack打包的對象，這裡面加上剛剛建立的index.js
-     app: './src/index.jsx',
+     app: './src/component/index.js',
    },
    plugins: [
      new HtmlWebpackPlugin({
